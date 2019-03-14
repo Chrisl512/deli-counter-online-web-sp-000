@@ -9,7 +9,7 @@ def line(array)
     else
         array.collect!.with_index do |person, index|
         num = index.to_i + 1
-        position << num + "."
+        position << num.string + "."
         nam = person
         people << nam
         new_array = position.zip(people)
