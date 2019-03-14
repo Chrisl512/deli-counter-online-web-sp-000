@@ -9,9 +9,9 @@ def line(array)
     else
         array.collect!.with_index do |person, index|
         num = index + 1
-        position << num
+        position << num + "."
         nam = person
-        people << nam + "."
+        people << nam 
         new_array = position.zip(people)
         end
     #puts "The line is currently: #{position.zip(people)} "
