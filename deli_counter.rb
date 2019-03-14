@@ -13,7 +13,7 @@ def line(array)
         people << nam
         end
 
-    puts "The line is currently: #{position.zip(".")} "
+    puts "The line is currently: #{position.each(".")} "
     end
 
 end
