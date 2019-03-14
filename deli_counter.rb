@@ -8,9 +8,9 @@ def line(array)
     else
         array.collect!.with_index do |person, index|
         num = index.to_i + 1
-        position << num
+        position << num.string
         nam = person
-        people << nam
+        people << nam.string
         end
 
     puts "The line is currently: #{position.join(".") + people} "
