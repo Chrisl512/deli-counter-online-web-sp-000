@@ -13,7 +13,7 @@ def line(array)
         people << nam
         end
 
-    puts "The line is currently: #{position.zip(people).flatten.compact}.join"
+    puts "The line is currently: #{position.zip(people).flatten.compact.join}"
     end
 
 end
