@@ -8,7 +8,7 @@ def line(array)
     else
         array.collect!.with_index do |person, index|
         num = index.to_i + 1
-        position << num.string
+        position << num
         nam = person
         people << nam.string
         end
