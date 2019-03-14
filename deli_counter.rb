@@ -10,7 +10,7 @@ def line(array)
         num = index.to_i + 1
         position << num
         nam = person
-        people << nam.string
+        people << nam
         end
 
     puts "The line is currently: #{position.join(".") + people} "
