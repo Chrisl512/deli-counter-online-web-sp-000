@@ -14,6 +14,7 @@ def line(array)
         end
 
     puts "The line is currently: #{position.zip(people)} "
+    binding.pry
     end
 
 end
