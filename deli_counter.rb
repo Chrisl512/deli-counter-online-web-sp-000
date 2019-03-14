@@ -7,7 +7,7 @@ def line(array)
     if array == []
       puts "The line is currently empty."
     else
-        array.collect!.with_index do |person, index|
+        array.each.with_index do |person, index|
         num = index + 1
         position << num
         nam = person
