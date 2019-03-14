@@ -8,7 +8,7 @@ def line(array)
       puts "The line is currently empty."
     else
         array.collect!.with_index do |person, index|
-        num = index + 1
+        num = index.to_1 + 1
         position << num + "."
         nam = person
         people << nam
