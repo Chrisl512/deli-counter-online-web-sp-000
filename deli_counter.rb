@@ -13,9 +13,9 @@ def line(array)
         people << nam
         binding.pry
         end
-
-    end
     puts "The line is currently: #{position} + #{people}"
+    end
+    
 end
 
 def take_a_number(array, name)
