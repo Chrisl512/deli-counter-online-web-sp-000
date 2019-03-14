@@ -13,7 +13,7 @@ def line(array)
         people << nam
         end
 
-    puts "The line is currently: #{position.join(person.sort)}"
+    puts "The line is currently: #{position.join(people.sort)}"
     end
 
 end
