@@ -7,12 +7,12 @@ def line(array)
       puts "The line is currently empty."
     else
         array.collect!.with_index do |person, index|
-        num = person.to_i + 1
+        num = index.to_i + 1
         position << num
         nam = person
         people << nam
         end
-      
+
     puts "The line is currently: #{position} + #{people}"
     end
 
