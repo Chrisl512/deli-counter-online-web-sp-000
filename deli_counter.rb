@@ -11,6 +11,7 @@ def line(array)
         position << num
         nam = person
         people << nam
+        binding.pry
         end
 
     end
