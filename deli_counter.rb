@@ -11,7 +11,7 @@ def line(array)
         num = index + 1
         position << num
         nam = person
-        people << nam
+        people << nam + "."
         new_array = position.zip(people)
         end
     #puts "The line is currently: #{position.zip(people)} "
