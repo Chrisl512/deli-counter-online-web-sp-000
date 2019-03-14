@@ -3,7 +3,7 @@ require 'pry'
 def line(array)
   position = []
   people = []
-  new_array
+  new_array = []
     if array == []
       puts "The line is currently empty."
     else
