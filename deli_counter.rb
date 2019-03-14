@@ -11,9 +11,10 @@ def line(array)
         position << num
         nam = person
         people << nam
+        position.zip(people)
         end
     #puts "The line is currently: #{position.zip(people)} "
-    puts "The line is currently: #{position.zip(people).string} "
+    puts "The line is currently: #{} "
     end
 end
 
