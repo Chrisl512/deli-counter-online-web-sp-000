@@ -12,7 +12,8 @@ def line(array)
         nam = person
         people << nam
         end
-    puts "The line is currently: #{position.zip(people)} "
+    #puts "The line is currently: #{position.zip(people)} "
+    puts "The line is currently: #{position.zip(people, " ").join} "
     end
 end
 
