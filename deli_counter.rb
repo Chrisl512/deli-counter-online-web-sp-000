@@ -11,9 +11,9 @@ def line(array)
         position << num
         nam = person
         people << nam
-        binding.pry
         end
     puts "The line is currently: #{position} + #{people}"
+    binding.pry
     end
 
 end
