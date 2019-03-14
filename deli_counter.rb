@@ -14,7 +14,6 @@ def line(array)
         people << nam
         new_array = position.zip(people)
         end
-    #puts "The line is currently: #{position.zip(people)} "
     puts "The line is currently: #{new_array} "
     end
 end
