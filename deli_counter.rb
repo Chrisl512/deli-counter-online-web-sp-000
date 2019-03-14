@@ -11,9 +11,8 @@ def line(array)
         position << num
         nam = person
         people << nam
-        position | people
         end
-    puts "The line is currently: #{position.zip(people)} "
+    puts "The line is currently: #{position.zip(people).to_s} "
     end
 
 end
