@@ -11,10 +11,10 @@ def line(array)
         position << num
         nam = person
         people << nam
-        position.zip(people)
+        new_array = position.zip(people)
         end
     #puts "The line is currently: #{position.zip(people)} "
-    puts "The line is currently: #{} "
+    puts "The line is currently: #{new_array.join} "
     end
 end
 
