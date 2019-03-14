@@ -7,7 +7,7 @@ def line(array)
       puts "The line is currently empty."
     else
         array.each.with_index do |person, index|
-        num = person.to_i + 1
+        num = person.to_i 
         position << num
         nam = person
         people << nam
