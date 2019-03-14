@@ -13,7 +13,7 @@ def line(array)
         people << nam
         end
 
-    puts "The line is currently: #{people.join}"
+    puts "The line is currently: #{}#{people.join}"
     end
 
 end
