@@ -12,7 +12,6 @@ def line(array)
         nam = person
         people << nam
         end
-binding pry
     puts "The line is currently: #{position.zip(people)} "
     end
 
